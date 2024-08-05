@@ -1,0 +1,310 @@
+/* for mobile */
+
+@media only screen and (max-width : 480px) {
+
+    .fs-section-title {
+        width: 90%;
+        text-align: center;
+    }
+
+    .fs-heading-line {
+        width: 20%;
+    }
+
+    /* common card container */
+
+    .fs-cards-container {
+        flex-direction: column;
+    }
+
+    /* header section */
+
+    .fs-header-left-heading {
+        top: 35%;
+        left: 11%;
+     }
+
+    .fs-header-right-navbar {
+        width: 100vw;
+        margin: 7px 0 0 0;
+    }
+
+    /* .fs-header-navbar-menu {
+        width: 100vw;
+        margin-top: 7px;
+    } */
+
+    .fs-navbar-menu-list {
+        margin: 0 7px;
+        font-size: 1.3rem;
+        transition: 0.4s ease;
+    }
+
+    .fs-navbar-menu-list:hover {
+        color: #F63854;
+        cursor: pointer;
+     }
+
+    /* step to follow section */
+
+    .fs-steps-section {
+        flex-direction: column;
+    }
+
+    .fs-step {
+        flex-direction: row;
+        margin-top: 5px;
+    }
+
+    .fs-right-steps-section {
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: 6px;
+    }
+
+    .fs-list-div {
+        align-self: center;
+    }
+
+    .fs-list-para {
+        width: 100%;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    /* start eating section */
+
+    .fs-start-eating-card:not(:last-child) {
+       margin-bottom: 20px;
+    }
+
+    /* contact us section */
+    
+    .fs-contact-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fs-contact-us-left {
+        /* border: 1px solid green; */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-us-img {
+        width: 90%;
+    }
+
+    .fs-contact-us-right {
+        /* border: 1px solid blue; */
+        width: 100%;
+    }
+
+    .fs-contact-us-form {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-us-para {
+        margin-left: 12px;
+    }
+
+    .contact-us-button {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    /* footer section */
+
+    .fs-footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        width: 90%;
+    }
+    
+    .footer-lists {
+        /* border: 1px solid white; */
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-list-item {
+       /* border: 1px solid white; */
+       margin: 5px;
+    }
+
+    .footer-mid {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .footer-symbol-list {
+      justify-content: space-evenly;
+    }
+
+    .footer-right {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .footer-para {
+       width: 90%;
+       text-align: center;
+       margin: 0 auto;
+    }
+
+}
+
+/* for tablet view */
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+    /* common heading */ 
+
+    .fs-section-title {
+        font-size: 2.6rem;
+    }
+
+    /* common container */
+
+    .fs-cards-container {
+        /* border: 1px solid blueviolet; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* header section */
+
+    .fs-navbar-menu-list {
+        /* border: 1px solid red; */
+        font-size: 1.7rem;
+     }
+
+     /* awesome feature section */
+
+     .fs-features-card {
+        /* border: 1px solid red; */
+        flex: 0 0 calc(45%);
+        margin: 15px;
+    }
+
+    .fs-card-icon {
+        font-size: 4.5rem;
+    }
+
+    .fs-card-title {
+        font-size: 2rem;
+    }
+
+    .fs-card-para {
+        font-size: 1.8rem;
+    }
+
+     /* step to follow section */ 
+
+     .fs-steps-image {
+        width: 60%;
+    }
+
+    .fs-right-steps-section {
+        /* border: 1px solid red; */
+        width: 53%;
+    }
+
+    .fs-list-div {
+        width: 55px;
+        height: 55px;
+    }
+
+    .fs-list-para {
+        /* border: 1px solid black; */
+        width: 75%;
+        font-size: 1.6rem;
+    }
+
+     .fs-step {
+        /* line-height: 3; */
+        margin: 10px 0;
+    }
+
+     /* review section */ 
+
+     .reviews-card {
+        /* border: 1px solid red; */
+       flex: 0 0 calc(45%);
+       margin: 15px;
+    }
+
+    .reviews-card-img {
+        width: 23%;
+    }
+    
+    .reviews-card-head .card-title {
+        font-size: 2.1rem;
+    }
+
+    .reviews-card-para {
+        font-size: 1.7rem;
+    }
+
+     /* start-eating-section */
+
+     .fs-start-eating-card {
+        /* border: 1px solid black; */
+       flex: 0 0 calc(45%);
+       font-size: 1.7rem;
+       margin: 15px;
+    }
+
+    .fs-start-eating-card:last-child {
+        /* border: 1px solid black; */
+       margin-top: 20px;
+    }
+
+    .price-info {
+        /* border: 1px solid red; */
+        font-size: 4.7rem;
+    }
+
+     /* contact us section */
+
+     .contact-us-label {
+        font-size: 1.5rem;
+     }
+
+     .contact-us-para {
+        margin-left: 15px;
+        font-size: 1.3rem;
+    }
+
+    .contact-us-button {
+        width: 45%;
+    }
+
+     /* footer section */
+
+     .fs-footer-container {
+        /* border: 1px solid blue; */
+        flex-wrap: wrap;
+    }
+
+     .fs-footer-container div {
+        flex: 0 0 calc(45%);
+     }
+
+     .footer-right {
+        /* border: 1px solid green; */
+        margin-top: 20px;
+    }
+
+     .footer-symbol-list {
+        /* border: 1px solid white; */
+       justify-content: space-evenly;
+    }
+}
